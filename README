@@ -1,0 +1,9 @@
+1. Checkout the project
+
+2. Uncompress data/input/gcas_assocs.tar.gz 
+	tar -xvf assocs.tar.gz
+
+3. Execute
+java -Xmx8096M -jar gcas.jar data/input/testCases_rarediseases.tsv
+
+4. Output files are stored under data/output
